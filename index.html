@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Cross Club Hackathon!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Merienda&display=swap" rel="stylesheet">
     <style>
       html, body {
         height: 100%;
@@ -17,13 +20,217 @@
         background-repeat: no-repeat;
         background-size: cover;
       }
+      .left {
+        text-align: left;
+        width: 80%;
+        float: left;
+        padding: 30px;
+      }
+      .right {
+        text-align: right;
+        width: 80%;
+        float: right;
+        padding: 30px;
+      }
+      .highlighted {
+        line-height: 0;
+        position: relative;
+        display: inline-block;
+      }
+      .highlighted:before {
+        content: "";
+        display: block;
+        height: 50%;
+        width: 100%;
+        margin-left: -3px;
+        margin-right: -3px;
+        position: absolute;
+        background: rgb(230, 230, 250);
+        transform: rotate(2deg);
+        top: 21px;
+        left: -1px;
+        border-radius: 20% 25% 20% 24%;
+        padding: 10px 3px 3px 10px;
+      }
+      h1 {
+        font-family: "Merienda", cursive;
+        color: rgb(75, 0, 130);
+        padding: 20px;
+        font-size: 60px;
+        position: relative;
+      }
+      p {
+        font-family: "Lexend Deca", sans-serif;
+        font-size: 30px;
+        padding: 5px;
+      }
+      li {
+        font-family: "Lexend Deca", sans-serif;
+        font-size: 24px;
+        padding: 5px;
+      }
+      .footer {
+        width: 100%;
+        background-color: rgb(75, 0, 130);
+        float: right;
+        color: white;
+        text-align: right;
+        padding-bottom: 10px;
+        padding-right: 20px;
+      }
+      h4 {
+        font-family: "Merienda", cursive;
+      }
+      small {
+        font-family: "Lexend Deca", sans-serif;
+      }
+      .email {
+        color: rgb(230, 230, 250);
+      }
     </style>
   </head>
   <body>
     <div class="header"></div>
     <img style="width: 100%;" src="images/cch-transition-2.png">
-    <div class="body">
-      
+    <div class="text">
+      <div class="left">
+        <span class="highlighted"><h1>What is CCH?</h1></span>
+        <p>After three years (possibly more!) of hiatus, we are proud to
+          announce that we are hosting the first schoolwide coding competition
+          at Monta Vista High School! The Cross Club Hackathon is organized by
+          the three major tech clubs on campus: the Computer Science club, the
+          Data Science club, and the Artificial Intelligence club. We aim to
+          provide an opportunity to MVHS students to show off their talents in
+          programming and create projects that have a real impact on the world
+          around us!</p>
+      </div>
+      <div class="right">
+        <span class="highlighted"><h1>When will CCH 2023 take place?</h1></span>
+        <p>Although dates have not been finalized yet, CCH 2023 is tentatively
+          set to start on Saturday, March 11th, 2023. It is tentatively set to
+          end on Saturday, March 25th, 2023. We plan on holding a virtual awards
+          ceremony on Saturday, April 4th, 2023. Exact details will soon be
+          announced on this website!</p>
+      </div>
+      <div class="left">
+        <span class="highlighted"><h1>Let’s talk logistics!</h1></span>
+        <p>CCH is a team-based competition. Participants will compete in teams
+          of 4, and if you don’t have a team, we will connect you with other
+          participants who are also looking for teammates.</p>
+        <p>CCH also had two divisions: Challenger and Hardcore. The Challenger
+          division is for members who are taking or have taken Java or have a
+          similar level of experience in coding. The Hardcore division is for
+          members who are taking or have taken AP CS A or have a similar level
+          of experience in coding. This way, everyone gets to compete against
+          people at their level, and Challengers also get an opportunity to win
+          prizes. When you create a team, please ensure that all of your members
+          are Challengers or all of your members are Hardcore participants; do
+          not mix and match. Officers reserve the right to modify teams to
+          ensure fairness across both divisions.</p>
+        <p>Over the two weeks of the tournament, you and your team are tasked
+          with creating a project that will blow us away! In order to be a valid
+          submission, your project must satisfy the following three
+          criteria:</p>
+        <ul>
+          <li>The project must relate to the theme of the hackathon (see
+            below).</li>
+          <li>The project must be an application, a website, or a similar
+            format.</li>
+          <ul>
+            <li>Just training a dataset with AI does not count as a valid
+              project. It must be implemented into one of the above
+              formats.</li>
+            <li>Console-based projects are acceptable, but you may be at a
+              disadvantage.</li>
+          </ul>
+          <li>The project must incorporate Artificial Intelligence or Data
+            Science in some way.</li>
+          <ul>
+            <li>For competitors who do not have experience in AI or Data
+              Science, the MV Data Science Club is generously offering a Data
+              Science workshop for beginners. The date and time for this
+              workshop has not been set yet, but we will update this once it has
+              been confirmed!</li>
+          </ul>
+        </ul>
+        <p>We also request that people do not submit “mocks,” or front-ends that
+          don’t actually have any functionality.</p>
+      </div>
+      <div class="right">
+        <span class="highlighted"><h1>What’s the theme for CCH 2023?</h1></span>
+        <p>The theme for the competition will be released on this website on the
+          starting date of the competition, which is tentatively set to be
+          Saturday, March 11th, 2023. All projects must be related to this
+          theme, but you will still have plenty of room for creativity!</p>
+      </div>
+      <div class="left">
+        <span class="highlighted"><h1>What’s the judging criteria?</h1></span>
+        <p>Projects will be judged by creativity, applicability, and potential
+          for impact.</p>
+        <p>Although we will not be judging your code, we will request that you
+          submit your code so our judges can run the application and ensure that
+          your project is not a mock.</p>
+        <p>You will also be asked to create a short video to present your
+          project. There is no minimum or maximum time limit for this video, but
+          make a reasonable judgment.</p>
+      </div>
+      <div class="right">
+        <span class="highlighted"><h1>Are there prizes?</h1></span>
+        <p>Of course, there will be prizes! (Yay!) The first place team in both
+          the Challenger division and the Hardcore Division will receive prizes.
+          However, what exactly are the prizes? That’s a mystery… you’ll have to
+          participate to find out!</p>
+      </div>
+      <div class="left">
+        <span class="highlighted"><h1>How do I participate?</h1></span>
+        <p>Registration forms will soon be released on this website!</p>
+      </div>
+      <div class="right">
+        <span class="highlighted"><h1>How do I submit?</h1></span>
+        <p>Again, details are tentative, but we plan on holding submissions
+          through Devpost. More details will be coming out, so check back
+          soon!</p>
+      </div>
+      <div class="left">
+        <span class="highlighted"><h1>Meet the organizers!</h1></span>
+        <p>Here are the officer teams of the Computer Science club, the Data
+          Science club, and the Artificial Intelligence club.</p>
+        <ul>
+          <li>Yash Thapliyal: Lead Organizer of CCH 2023, Director of Operations
+            of MVCS, Director of Operations of MV Data Science</li>
+          <li>Ved Pradhan: Vice Organizer of CCH 2023, Co-President of MVCS</li>
+          <li>Saloni Gupta: Co-President of MVCS, Co-President of MVAI</li>
+          <li>Jai Sharma: Co-President of MV Data Science</li>
+          <li>Christopher Sun: Co-President of MV Data Science</li>
+          <li>Milind Maiti: Co-President of MV Data Science</li>
+          <li>Shikhar Gupta: Co-President of MVAI, ACSL Lead of MVCS</li>
+          <li>Tanisha Kholiya: Director of Operations of MVCS</li>
+          <li>Akshay Sahai: Director of Outreach of MVCS</li>
+          <li>Srikar Devarakonda: Secretary of MVCS</li>
+          <li>Shreyas Garimella: Secretary of MV Data Science</li>
+          <li>Krithika Singh: Co-Vice President of MVAI</li>
+          <li>Shubham Jain: Co-Vice President of MVAI</li>
+          <li>Andrew Zhou: Director of Logistics of MVAI</li>
+        </ul>
+        <p>We would also like to thank our advisors for graciously supporting us
+          in this endeavor!</p>
+        <ul>
+          <li>Mr. Deruiter: Advisor of MVCS</li>
+          <li>Mrs. McCarty: Advisor of MV Data Science</li>
+          <li>Mr. Kim: Advisor of MVAI</li>
+        </ul>
+      </div>
+      <div class="footer">
+        <h4>Contact Details</h4>
+        <small>MV Computer Science: <span class="email">mvcsclub@gmail.com
+          </span></small><br>
+        <small>MV Data Science Club: <span class="email">
+          mvdatascienceclub@gmail.com</span></small><br>
+        <small>MV Artificial Intelligence Club: <span class="email">
+          mvaiclub@gmail.com</span></small><br>
+        <br><br>
+        <small>Website Design by Ved Pradhan in 2023</small>
+      </div>
     </div>
   </body>
 </html>
